@@ -1,0 +1,243 @@
+/* 
+Home style 
+*/
+.home{
+    width: 100%;
+    height: 650px;
+    display: inline-grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.home p{
+    margin-bottom: 2rem;
+}
+.name span{
+    padding-left: 0.4rem;
+    color: #ffbf35;
+}
+.home-icons a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    padding: 0.8rem;
+    border-radius: 100%;
+    border: 2px solid;
+    border-color: white;
+}
+/* 
+STYLE ABOUT 
+*/
+.about-Section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4rem 1fr 1fr 4rem;
+}
+.img{
+    grid-column: 2/3;
+    padding: 3rem;
+    padding-bottom: 0;
+    text-align: center;
+}
+.about{
+    grid-column: 3/4;
+    padding: 3rem;
+    text-align: center;
+}
+.about h1{
+    text-align: center;
+    color: #ffbf35;
+}
+.table{
+    display: grid;
+}
+.table1{
+    grid-column: 1/2;
+    text-align: left;
+    padding-right:1rem ;
+}
+.table1 th{
+    padding-right: 1rem;
+}
+.table2{
+    grid-column: 2/3;
+    text-align: left;
+}
+.table2 th{
+    padding-right: 1rem;
+}
+.table2 a{
+    color: white;
+} 
+
+/*Experience style*/
+#experience{
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 8rem 1fr 1fr 10rem;
+    justify-content: center;
+}
+#experience h2{
+    color: #ffbf35;
+    text-align: center;
+}
+.Education{
+    grid-column: 2/3;
+}
+.Education div{
+    background-color: #262626;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.Education h4{
+    color: #ffbf35;
+    padding: 0rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.Education p{
+    padding: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.Experience{
+    grid-column: 3/4;
+}
+.Experience div{
+    background-color: #262626;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.Experience h4{
+    color: #ffbf35;
+    padding: 0rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+.Experience p{
+    padding: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+/*services style*/
+#services{
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-areas: 
+        "a a a a"
+        "b b c c"
+        "b b c c";
+    text-align: center;
+    margin-bottom: 30rem;
+}
+#services h2{
+    grid-area: a;
+    color: #ffbf35;
+}
+.services1{
+    grid-area: b;
+    justify-content: center;
+    text-align: center;
+}
+.services2{
+    grid-area: c;
+    justify-content: center;
+    text-align: center;
+}
+.logo-color{
+    color: #ffbf35;
+    font-size: 30px;
+
+}
+.services1 b, .services2 b{
+    font-size: 20px;
+    margin-left: 0.5rem;
+    text-align: center;
+    margin-bottom: 10rem;
+    padding: 0.5rem;
+}
+.services1 p,.services2 p{
+    background-color: #262626;
+    padding: 1rem;
+    text-align: left;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.services1 p{
+    margin-left: 8rem;
+}
+.services2 p{
+    margin-right: 8rem;
+}
+.services1 div, .services2 div{
+    background-color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Style Contact */
+#contact{
+    justify-content: center;
+    text-align: center;
+    width: 66%;
+	margin: 0px auto;
+    align-items: center;
+}
+.touch{
+    color: #ffbf35;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.textarea input, textarea {
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 20px;
+    height: 40px;
+    border: 1px solid #a1a1a1;
+}
+.textarea textarea{
+    height: 80px;
+} 
+.textarea button{
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    background-color: #ffbf35;
+    width: 92%;
+    margin-bottom: 20px;
+    padding: 1rem;
+    font-size: 16px;
+}
+.icons{
+    padding: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    float: left;
+}
+.icons a{
+
+    color: gray;
+    padding: 1rem;
+    margin-left: 1rem;
+    border-radius: 100%;
+    border: 2px solid grey;
+    cursor: pointer;
+    
+}
+
